@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+#logo img {
+    width: 100px;
+}
+
+header .button {
+    padding: 10px;
+    background-color: olive;
+    color: white;
+}
+
+.container{
+    margin: auto;
+    padding: 100px;
+}
+
+
+.container table{
+   text-align: center;
+   width: 100%;
+   margin: 20px 0;
+}
+
+.container table, th, td {
+    border: 1px solid black;
+  }
+
+.container table th, td {
+    padding: 15px; text-align: left;
+}
+
+.container .button{
+    padding: 10px;
+    background-color: olive;
+    color: white;
+    text-align: right;
+    float: right;
+}
+
+.action{
+    padding: 10px;
+    color: white;
+}
+
+.action.add{
+    background-color: green;
+}
+
+.action.remove{
+    background-color: brown;
+}
