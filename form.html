@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form_style.css">
+    <title>Registration form</title>
+</head>
+<body>
+    <header>
+        <p>Workshop Registration &nbsp;&nbsp;&nbsp; <small>More actions</small></p>
+    </header>
+
+    
+
+    <div class="container">
+            <div class="form-section form-1">
+                <form action="." method="get">
+                    <table>
+                        <tr><td><p><u>Register now while seats are available! </u></p></td></tr>
+                        <tr>
+                            <td><label for="first_name">First Name</label></td>
+                            <td><input type="text" name="first_name" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="last_name">Last Name</label></td>
+                            <td><input type="text" name="last_name" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="company">Company/Insitution</label></td>
+                            <td><input type="text" name="company" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="address">Address</label></td>
+                            <td><textarea name="address" id="" cols="30" rows="10" required></textarea></td>
+                        </tr>
+                        <tr>
+                            <td><label for="city">City</label></td>
+                            <td><input type="text" name="city" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="state">State/Province/Region</label></td>
+                            <td>
+                                <select name="state" required>
+                                    <option value="" disabled selected>-Select-</option>
+                                    <option value="AL">Alabama</option>
+                                    <option value="AK">Alaska</option>
+                                    <option value="AZ">Arizona</option>
+                                    <option value="AR">Arkansas</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="country">Country</label></td>
+                            <td>
+                                <select name="country" required>
+                                    <option value="" disabled selected>-Select-</option>
+                                    <option value="USA">USA</option>
+                                    <option value="Canada">Canada</option>
+                                    <option value="Mexico">Mexico</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">Email</label></td>
+                            <td><input type="email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td><label for="phone">Phone Number</label></td>
+                            <td><input type="tel" name="phone" required></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        
+        <div class="form-section form-2">
+            <form action="." method="get">
+                <table>
+                    <tr><td><p><u>Lunch</u></p></td></tr>
+                    <tr>
+                        <td><label for="meal">Meal Preference</label></td>
+                        <td>
+                            <select name="meal" id="">
+                                <option value="Vegiterian">Vegiterian</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr><td><p><u>Payment Details</u></p></td></tr>
+                    <tr>
+                        <td><label for="meal">Payment Mode</label></td>
+                            <td>
+                                <input type="checkbox" name="payment" value="credit" checked> Cheque
+                                <input type="checkbox" name="payment" value="paypal"> Cash
+                                <input type="checkbox" name="payment" value="paypal"> Demand Draft
+                            </td>
+                    </tr>
+                    <tr>
+                        <td><label for="cheque">DD/Cheque No.</label></td>
+                        <td><input type="number" name="cheque" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="bank">Drawn On(Bank Name)</label></td>
+                        <td><input type="number" name="bank" id=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="payable">Payable at</label></td>
+                        <td><input type="text" name="payable" id=""></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+    <div id="last-buttons">
+            <button type="submit" class="button">Submit</button>
+            <button class="button">Reset</button>
+    </div>
+
+    <footer>
+        <div>
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Feyu-tes.github.io%2Fwaplabs%2Fform.html">
+                <img src="./htmlchecker.png" width="200" alt="html checker">
+            </a>
+            &nbsp; &nbsp;
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Feyu-tes.github.io%2Fwaplabs%2Fform_style.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img src="./css_checker.png" width="200" alt="css checker">
+            </a>
+    
+        </div>
+    </footer>
+</body>
+</html>
