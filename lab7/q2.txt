@@ -1,0 +1,2 @@
+The setTimeout function will run after the loop completes hence the log will be the last value of i after the loop is done.
+This is because setTimeout is asynchronous and will not stop the flow of execution of the code.
